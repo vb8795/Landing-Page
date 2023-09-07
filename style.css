@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    
+}
+#part2{
+    height: 100%;
+    width: 64%;
+    background-color: rgb(51, 44, 186);
+    background-image: url(https://cdn.pixabay.com/photo/2014/09/21/17/56/mountaineering-455338_640.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.162);
+}
+#part3{
+    height: 100%;
+    width: 10%;
+  
+}
+#text-div{
+    height: 245px;
+    width: 500px;
+    letter-spacing: 5px;
+    left: 8%;
+    top: 30%;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+}
+#text-div>h1{
+    font-size: 70px;
+}
+#small-image-div{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/12/20/07/maldives-3220702_1280.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 22%;
+    right: 5%;
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.162);
+}
+#vertical-text{
+    color: transparent;
+    position: absolute;
+    -webkit-text-stroke-color:rgb(133, 228, 95);
+    -webkit-text-stroke-width: 1px;
+    letter-spacing: 15px;
+    transform: rotate(90deg);
+    right: -32%;
+    top: 13%;
+    transform-origin: 0% 0%;
+}
+#vertical-text>h1{
+    font-size: 40px;
+}
+#nav{
+    position: absolute; 
+   
+    
+    display: flex ;
+    align-items: center;
+    left: 10%;
+    top: 12%;
+
+}
+#nav img{
+    height: 60px;
+}
+#nav h6{
+    margin-left: 150px;
+    color:white;
+}
